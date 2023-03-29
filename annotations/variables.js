@@ -30,3 +30,12 @@ var logNumber = function (i) {
 var json = '{ "x": 10, "y": 20 }';
 var coordinates = JSON.parse(json);
 console.log(coordinates); // { x: 10, y: 20 }
+// 2) When we declare a variable on one line
+// and initialize it later
+var words = ['red', 'green', 'blue'];
+var foundWord;
+for (var i = 0; i < words.length; i++) {
+    if (words[i] === 'green') {
+        foundWord = true;
+    }
+}
