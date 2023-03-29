@@ -27,6 +27,6 @@ var logNumber = function (i) {
 };
 // When to use annotations
 // 1) Function that returns the 'any' type
-var json = '{ x: 10, y: 20 }';
+var json = '{ "x": 10, "y": 20 }';
 var coordinates = JSON.parse(json);
 console.log(coordinates); // { x: 10, y: 20 }
