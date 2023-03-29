@@ -10,3 +10,7 @@ var myCar = carMakers.pop();
 carMakers.map(function (car) {
     return car.toUpperCase();
 });
+// Flexible types
+var importantDates = [];
+importantDates.push('2030-10-10');
+importantDates.push(new Date());
